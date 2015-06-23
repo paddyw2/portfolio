@@ -1,14 +1,14 @@
 @font-face {
     font-family: vegur-bold;
-    src: url(css/vegur-bold.otf);
+    src: url(vegur-bold.otf);
 }
 @font-face {
     font-family: vegur-light;
-    src: url(css/vegur-light.otf);
+    src: url(vegur-light.otf);
 }
 @font-face {
     font-family: vegur-regular;
-    src: url(css/vegur-regular.otf);
+    src: url(vegur-regular.otf);
 }
 
 
@@ -119,7 +119,7 @@ margin: auto;
 
 
 .project1 {
-    background-image: url(img/roboto.PNG);
+    background-image: url(../img/roboto.PNG);
     height: 200px;
     width: 100%;
       background-size: contain;
@@ -127,7 +127,7 @@ margin: auto;
   background-repeat: no-repeat;
 }
 .project2 {
-    background-image: url(img/weather.PNG);
+    background-image: url(../img/weather.PNG);
     height: 200px;
     width: 100%;
       background-size: contain;
@@ -136,7 +136,7 @@ margin: auto;
 }
 
 .project3 {
-    background-image: url(img/sealworx.PNG);
+    background-image: url(../img/sealworx.PNG);
     height: 200px;
     width: 100%;
       background-size: contain;
