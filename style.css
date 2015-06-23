@@ -1,11 +1,25 @@
+@font-face {
+    font-family: vegur-bold;
+    src: url(css/vegur-bold.otf);
+}
+@font-face {
+    font-family: vegur-light;
+    src: url(css/vegur-light.otf);
+}
+@font-face {
+    font-family: vegur-regular;
+    src: url(css/vegur-regular.otf);
+}
+
+
 body {
-    margin: 0px;
-    height: 900px;
+    margin: 0px;  
 }
 
 .main-body {
     background-color: #f4f4f4;
-    height: 100%;
+    padding-bottom: 50px;
+    
 }
 
 .container {
@@ -15,7 +29,7 @@ body {
 }
 
 h1 {
-    font-family: 'vegur';
+    font-family: 'vegur-bold';
     color: #323232;
     font-size: 48px;
     padding: 20px;
@@ -25,7 +39,7 @@ h1 {
 }
 
 p {
-    font-family: 'vegur';
+    font-family: 'vegur-regular';
     font-weight: 400;
     color: #B4BAC2;
     padding: 20px;
@@ -45,6 +59,8 @@ p {
   border: 1px solid #cbd0d5;
   margin: auto;
   transition: all 0.5s ease;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
     
 }
 
@@ -55,13 +71,11 @@ p {
 
 .button p {
     color: #B4BAC2;
-    padding: 7px;
+    padding: 12px;
     text-align: center;
-    font-weight: 100;
+    font-family: 'vegur-light';
    
 }
-
-
 
 .footer {
     width: 100%;
@@ -70,6 +84,14 @@ p {
     background-color: #f4f4f4;
     position: relative;
 }
+
+.footer p {
+    font-weight: 100;
+    font-size: 12px;
+    padding: 10px;
+    font-family: 'vegur-light';
+}
+
 
 .icons {
     width: 320px;
@@ -86,10 +108,11 @@ max-width: 500px;
     width: 100%;
 margin: auto;
 }
-#hover {
+
+.hover {
     transition: all 0.5s ease;
 }
-#hover:hover {
+.hover:hover {
     cursor: pointer;
     opacity: 0.8;
 }
@@ -99,15 +122,26 @@ margin: auto;
     background-image: url(img/roboto.PNG);
     height: 200px;
     width: 100%;
-    background-size: cover;
-    background-position: center;
+      background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .project2 {
     background-image: url(img/weather.PNG);
     height: 200px;
     width: 100%;
-    background-size: cover;
-    background-position: center;
+      background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project3 {
+    background-image: url(img/sealworx.PNG);
+    height: 200px;
+    width: 100%;
+      background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 a, a:link, a:active, a:hover, a:focus {
