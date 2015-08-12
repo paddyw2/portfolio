@@ -10,11 +10,18 @@
     font-family: vegur-regular;
     src: url(vegur-regular.otf);
 }
-
+.fadeIn {
+    opacity: 1;
+}
 
 body {
+    opacity: 0;
     margin: 0px;
-    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
 }
 
 .main-body {
@@ -147,4 +154,5 @@ margin: auto;
 
 a, a:link, a:active, a:hover, a:focus {
     text-decoration: none;
+    outline: 0;
 }

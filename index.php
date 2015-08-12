@@ -42,6 +42,12 @@
     </div>
     <p>&copy; Copyright Patrick S. Withams 2015 - All Rights Reserved</p>
 </div>
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+    $("body").addClass("fadeIn");
+});
+</script>    
+
 </body>
 </html>
