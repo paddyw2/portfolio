@@ -20,7 +20,7 @@
     <div class="project-container">
         <a href="http://fontinspiration.com"><div class="hover project1"></div></a>
         <br>
-        <a href="http://code.patrickswithams.com"><div class="hover project2"></div></a>
+        <a href="http://weather.patrickswithams.com"><div class="hover project2"></div></a>
         <br>
         <a href="http://patrickwithams.tumblr.com/image/59480055018"><div class="hover project3"></div></a>
     </div>
