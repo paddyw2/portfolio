@@ -7,6 +7,7 @@
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
         <!-- it's all on GitHub: https://github.com/paddyw2/portfolio -->
     </head>
 
