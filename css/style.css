@@ -10,6 +10,7 @@
     font-family: vegur-regular;
     src: url(vegur-regular.otf);
 }
+
 .fadeIn {
     opacity: 1;
 }
@@ -26,8 +27,7 @@ body {
 
 .main-body {
     background-color: #f4f4f4;
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px; 
 }
 
 .container {
@@ -69,7 +69,6 @@ p {
   transition: all 0.5s ease;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
-    
 }
 
 .button:hover {
@@ -100,7 +99,6 @@ p {
     font-family: 'vegur-light', 'Lato', sans-serif;
 }
 
-
 .icons {
     width: 320px;
     margin: 20px auto;
@@ -111,45 +109,56 @@ p {
     color: #cbd0d5;
     padding: 20px;
 }
+
 .project-container {
-max-width: 500px;
+    max-width: 500px;
     width: 100%;
-margin: auto;
+    margin: auto;
 }
 
 .hover {
     transition: all 0.5s ease;
 }
+
 .hover:hover {
     cursor: pointer;
     opacity: 0.8;
 }
 
-
 .project1 {
     background-image: url(../img/roboto.PNG);
     height: 200px;
     width: 100%;
-      background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .project2 {
     background-image: url(../img/weather.PNG);
     height: 200px;
     width: 100%;
-      background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .project3 {
+    background-image: url(../img/flickr.PNG);
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project4 {
     background-image: url(../img/sealworx.PNG);
     height: 200px;
     width: 100%;
-      background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 a, a:link, a:active, a:hover, a:focus {

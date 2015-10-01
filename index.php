@@ -23,7 +23,9 @@
         <br>
         <a href="http://weather.patrickswithams.com"><div class="hover project2"></div></a>
         <br>
-        <a href="http://patrickwithams.tumblr.com/image/59480055018"><div class="hover project3"></div></a>
+        <a href="http://flickr.patrickswithams.com"><div class="hover project3"></div></a>
+        <br>
+        <a href="http://patrickwithams.tumblr.com/post/59480055018/misc-logo"><div class="hover project4"></div></a>
     </div>
 
     <p style="padding: 80px 20px 40px 20px;">If you'd like to find out more about what I do, get in contact.</p>
@@ -43,6 +45,7 @@
     </div>
     <p>&copy; Copyright Patrick S. Withams 2015 - All Rights Reserved</p>
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 $( document ).ready(function() {
