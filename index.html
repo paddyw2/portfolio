@@ -3,16 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Patrick S. Withams</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+        <noscript>
             <style>
                 body {
                     opacity: 1;
                 };
             </style>
+        </noscript>
         <!-- it's all on GitHub: https://github.com/paddyw2/portfolio -->
     </head>
 
@@ -36,7 +36,7 @@
         <a href="http://weather.patrickwithams.com">
             <div class="hover project2">
                 <div class="popup-box flat-blue">
-                    <p>Fontinspiration allows you to browse some of the better looking Google Fonts. Click the font name to visit its Google Font page, or click anywhere else to view a random font.</p>
+                    <p>A basic weather app that displays current conditions for Calgary, Alberta. Uses the Wunderground API for data.</p>
                 </div>
             </div>
         </a>
@@ -44,7 +44,7 @@
         <a href="http://flickr.patrickwithams.com">
             <div class="hover project3">
                 <div class="popup-box flat-red">
-                    <p>Fontinspiration allows you to browse some of the better looking Google Fonts. Click the font name to visit its Google Font page, or click anywhere else to view a random font.</p>
+                    <p>A photo app that allows the Flickr recent photos API to be searched by tag and view count. Try the ‘sunset’ tag with 500 views and see what comes up. Increasing the view count often leads to better quality photos.</p>
                 </div>
 
             </div>
@@ -53,16 +53,26 @@
         <a href="http://patrickwithams.tumblr.com/post/59480055018/misc-logo">
             <div class="hover project4">
                 <div class="popup-box flat-darkblue">
-                    <p>Fontinspiration allows you to browse some of the better looking Google Fonts. Click the font name to visit its Google Font page, or click anywhere else to view a random font.</p>
+                    <p>A mock logo created as a graphic design showcase.</p>
                 </div>
 
             </div>
         </a>
+        <br>
+        <a href="/contact">
+            <div class="hover project5">
+                <div class="popup-box flat-grey">
+                    <p>I have created and maintained websites for a variety of companies as either a member of staff, or as a contractor. Additionally, I have also worked as a graphic designer at companies, and also freelance.</p>
+                </div>
+
+            </div>
+        </a>
+
     </div>
 
     <p style="padding: 80px 20px 40px 20px;">Currently available to hire for web development and graphic design</p>
 
-    <a href="mailto:pwithams@gmail.com"><div class="button"><p>Contact</p></div></a>
+    <a href="/contact"><div class="button"><p>Contact</p></div></a>
 
     </div>    
 </div>
@@ -79,11 +89,6 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-$( document ).ready(function() {
-    $("body").addClass("fadeIn");
-});
-</script>    
-
+<script src="functions.js"></script>
 </body>
 </html>

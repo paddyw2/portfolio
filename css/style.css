@@ -118,6 +118,7 @@ p {
 }
 
 .hover {
+    cursor: pointer;
     transition: all 0.5s ease;
 }
 
@@ -162,6 +163,17 @@ p {
     background-repeat: no-repeat;
 }
 
+
+.project5 {
+    background-image: url(../img/other.PNG);
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 a, a:link, a:active, a:hover, a:focus {
     text-decoration: none;
     outline: 0;
@@ -185,6 +197,7 @@ h3 {
     height: 100%;
     opacity: 0; 
     line-height: 100%;
+    border-radius: 3px;
     /* transition */
     -webkit-transition: all .25s ease-in;
     -moz-transition: all .25s ease-in;
@@ -209,12 +222,50 @@ h3 {
     background-color: #34495e;
 } 
 
+.flat-grey {
+    background-color: #bdc3c7;
+}
+
 .popup-box:hover {
     opacity: 1;
 }
 
 .popup-box p {
     padding-top: 80px;
+    font-family: vegur-light;
     color: white;
     line-height: 1.2;
+}
+
+
+/* contact form */
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0px;
+    border: 1px solid #e4e5e8;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 16px;
+    color: #323232;
+}
+
+button#submit {
+    200px;
+    margin: auto;
+}
+
+#form {
+    width: 100%;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+#form h3 {
+    padding: 15px;
+    color: #B4BAC2;
+    margin: 5px;
 }
