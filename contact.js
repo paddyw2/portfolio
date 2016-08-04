@@ -5,6 +5,9 @@ $(document).ready(function() {
         var form_message = $("#message").val();
         $("#returnmessage").empty(); // To empty previous error/success message.
         $("#returnmessage").hide();
+        if(form_name == "" || form_email == "" || form_message == "") {
+           $("#returnmessage").append("<p class=\"error\">Please fill all form fields</p>"); 
+        } else {
         // Returns successful data submission message when the entered information is stored in database.
         $.post("post.php", {
         name: form_name,

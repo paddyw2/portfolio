@@ -6,9 +6,7 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 $email = filter_var($email, FILTER_SANITIZE_EMAIL); // Sanitizing E-mail.
 // After sanitization Validation is performed
-if ($name == "" || $email == "" || $message == "") {
-    echo "<p class=\"error\">All fields must be completed</p>";
-} else if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $subject = $email;
     // To send HTML mail, the Content-type header must be set.
     $headers = 'MIME-Version: 1.0' . "\r\n";
