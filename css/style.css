@@ -241,6 +241,7 @@ h3 {
 /* contact form */
 
 input, textarea {
+    box-sizing: border-box;
     padding: 10px;
     margin: 5px 0px;
     border: 1px solid #e4e5e8;
