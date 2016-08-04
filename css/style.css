@@ -283,3 +283,6 @@ button#submit {
     padding: 5px;
 }
 
+#returnmessage p.error {
+    color: #323232;
+}
