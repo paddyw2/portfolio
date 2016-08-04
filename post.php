@@ -6,7 +6,7 @@ $message = $_POST['message'];
 $email = filter_var($email, FILTER_SANITIZE_EMAIL); // Sanitizing E-mail.
 // After sanitization Validation is performed
 if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $sendmessage = "Name: " . $name . "<br>Email: " . $email . ", Message: " . $message;
+    $sendmessage = "<strong>Name:</strong> " . $name . "<br><strong>Email:</strong> " . $email . "<br><strong>Message:</strong> " . $message;
 
     $headers = "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
