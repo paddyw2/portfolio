@@ -7,6 +7,7 @@ $(document).ready(function() {
         $("#returnmessage").hide();
         if(form_name == "" || form_email == "" || form_message == "") {
            $("#returnmessage").append("<p class=\"error\">Please fill all form fields</p>"); 
+           $("#returnmessage").fadeIn();
         } else {
         // Returns successful data submission message when the entered information is stored in database.
         $.post("post.php", {
