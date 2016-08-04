@@ -17,7 +17,7 @@ $(document).ready(function() {
         }, function(data) {
             $("#returnmessage").append(data); // Append returned message to message paragraph.
             $("#returnmessage").fadeIn();
-            if (data == "<p>Message Sent</p>") {
+            if (data == "<p>Message sent</p>") {
                 $("#form")[0].reset(); // To reset form fields on success.
             }
         });
