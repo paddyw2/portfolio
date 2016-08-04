@@ -15,7 +15,7 @@ $(document).ready(function() {
             message: form_message,
             }, function(data) {
                 $("#returnmessage").append(data); // Append returned message to message paragraph.
-                $("#returnmessage").css("opacity: 1");
+                $("#returnmessage").fadeIn();
                 if (data == "<p>Message Sent</p>") {
                     $("#form")[0].reset(); // To reset form fields on success.
                 }
