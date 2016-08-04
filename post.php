@@ -23,7 +23,7 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $sendmessage = wordwrap($sendmessage, 70);
     // Send mail by PHP Mail Function.
     mail($receiver, $subject, $sendmessage, $headers);
-    echo "Message Sent";
+    echo "<p>Message Sent</p>";
 } else {
     echo "<span>Invalid email</span>";
 }

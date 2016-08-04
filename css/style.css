@@ -269,3 +269,23 @@ button#submit {
     color: #B4BAC2;
     margin: 5px;
 }
+
+#returnmessage {
+    opacity: 0;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+
+#returnmessage p {
+    color: #0fff75;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
