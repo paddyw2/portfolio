@@ -4,6 +4,7 @@ $(document).ready(function() {
         var form_email = $("#email").val();
         var form_message = $("#message").val();
         $("#returnmessage").empty(); // To empty previous error/success message.
+        $("#returnmessage").hide();
         // Checking for blank fields.
         if (form_name == '' || form_email == '') {
             alert("Please Fill Required Fields");
