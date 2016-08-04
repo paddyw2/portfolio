@@ -275,7 +275,7 @@ button#submit {
 
 
 #returnmessage p {
-    color: #0fff75;
+    color: #31d99c; 
     font-family: roboto;
     font-weight: 400;
     font-size: 16px;
@@ -284,5 +284,5 @@ button#submit {
 }
 
 #returnmessage p.error {
-    color: #e74c3c;
+    color: #f06156;
 }
